@@ -1,5 +1,7 @@
 const server = require('./api/server');
 
-const port = 9000;
+server.listen(9000, () => {
+    console.log("\n*** Server Running on http://localhost:9000 ***\n");
+    });
 
 // START YOUR SERVER HERE
